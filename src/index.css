@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff21;
+}
+
+body {
+  color: #ffffff;
+}
+
+.dark {
+  @apply bg-zinc-700 text-white;
+}
+
+.red {
+  @apply bg-red-200;
+}
+.blue {
+  @apply bg-blue-200;
+}
+.green {
+  @apply bg-green-200;
+}
+.yellow {
+  @apply bg-yellow-200;
+}
+.purple {
+  @apply bg-purple-200;
+}
